@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prompt to AI | Rim Nassiri</title>
+</head>
+
+<body>
+    <section>
+ 
+    <video src="loop video.mp4" autoplay loop playsinline muted></video>
+    <div class="container">
+        <h1>AI Image Generator</h1>
+        <p> Unleash your creativity and transform your ideas into stunning visuals with the magic of AI! Just type in your imaginative prompt; for instance, you could say: 
+            "A happy stressed cat coding while on a deadline." Let your imagination run wild and watch the magic unfold!.</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="Type your prompt here" autocomplete="off">
+            <button type="button" id="generate">Generate</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">Generating...</div>
+            <div id="image-grid"></div>
+        </div>
+        <p class="copyright">Video Credit: Oleg Gamulinskii on <a
+            href="https://www.pexels.com/video/a-magical-background-4182916/">pexels.com</a>
+        </p>
+
+    </div>       
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
