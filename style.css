@@ -12,6 +12,14 @@ video{
     position: absolute;
 }
 
+/**
+    Make the container take up the full width and height of the viewport (screen). vh and vw are units that represent the percentage of the screen. 100vh means the container will take of 100% of the screem 50vh will take 50% of the screen, etc. 
+
+    The overflow: hidden property prevents the video from overflowing and causing horisontal / vertical scrollbars on the page. The video is almost 4000 pixels wide and 2000 pixels high. If we don't use overflow: hidden, the video will overflow and cause scrollbars. We don't need to resize the video or anything to make sure its on the screen because its so large it will cover the entire viewport anyway.
+
+    Display:grid is a css property that allows you to create different types of grid layouts. It has a property called place items where you can specify how you want to arrange the children elements of the grid. place-items: center will center the children elements of the grid.
+*/
+
 .app-container{
     height: 100vh;
     width: 100vw;
